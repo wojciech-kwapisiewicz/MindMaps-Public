@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T11:22:35.437Z" agent="5.0 (Windows)" etag="ZEOo83fvoIu0RC84Y2zE" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-19T11:23:32.637Z" agent="5.0 (Windows)" etag="FrcZK9bgnPXt5SqE-CsN" version="17.4.5" type="github">
   <diagram name="Page-1" id="d9b1e647-80fa-b4a2-5024-87a742678bcc">
     <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -28,10 +28,10 @@
         <mxCell id="57fe6abec08f04cb-11" value="&lt;div&gt;Examples:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;SOAP/WSDL enable service oriented architecture&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="550" y="280" width="140" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="57fe6abec08f04cb-12" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;br&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo." style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="57fe6abec08f04cb-12" value="Design pattern is:" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="700" y="280" width="140" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="57fe6abec08f04cb-13" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;br&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo." style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="57fe6abec08f04cb-13" value="&lt;div&gt;Examples:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Creational&lt;/li&gt;&lt;li&gt;Structural&lt;br&gt;&lt;/li&gt;&lt;li&gt;Behavioral&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="855" y="280" width="140" height="470" as="geometry" />
         </mxCell>
       </root>
