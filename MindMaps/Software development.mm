@@ -48,7 +48,25 @@
 <node CREATED="1643570047052" ID="ID_1697089913" MODIFIED="1643570050835" TEXT="Spotify model"/>
 <node CREATED="1650385353116" ID="ID_1141503156" MODIFIED="1650385358029" TEXT="Agile concepts">
 <node CREATED="1650385358029" ID="ID_733374576" LINK="https://www.comicagile.net/comic/the-agile-triangle/" MODIFIED="1650385369088" TEXT="The Agile Triangle"/>
-<node CREATED="1650385377478" ID="ID_607186876" LINK="https://age-of-product.com/agile-management-anti-patterns/" MODIFIED="1650385383053" TEXT="Antipatterns"/>
+<node CREATED="1650385377478" ID="ID_607186876" MODIFIED="1650386422142" TEXT="Antipatterns">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://www.linkedin.com/pulse/common-agile-scrum-anti-patterns-eric/
+    </p>
+    <p>
+      https://age-of-product.com/agile-management-anti-patterns/
+    </p>
+    <p>
+      https://age-of-product.com/sprint-anti-patterns/
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1643575048819" ID="ID_1388643816" LINK="#ID_954631330" MODIFIED="1644137760405" TEXT="DevOps">
@@ -191,6 +209,27 @@
 <node CREATED="1644066548608" ID="ID_319118254" MODIFIED="1644066549432" TEXT="https://www.synopsys.com/glossary/what-is-devops.html"/>
 </node>
 <node CREATED="1643753430021" ID="ID_1258984653" MODIFIED="1643753436985" TEXT="Service-based operating model"/>
+</node>
+<node CREATED="1650386357639" ID="ID_1117024614" MODIFIED="1650386359810" TEXT="Tools">
+<node CREATED="1650386435663" ID="ID_1104089047" MODIFIED="1650386448615" TEXT="Dev env in browser">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://replit.com/
+    </p>
+    <p>
+      https://replit.com/@WojciechKwapisi/SparklingTeemingCalculators#main.cs
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1650386451526" ID="ID_866914532" MODIFIED="1650386453850" TEXT="Tech tracker">
+<node CREATED="1650386453851" ID="ID_714026968" LINK="https://www.thoughtworks.com/radar" MODIFIED="1650386480114" TEXT="TechRadar by Thougthworks"/>
+</node>
 </node>
 </node>
 </node>
