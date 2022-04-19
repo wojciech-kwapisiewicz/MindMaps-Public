@@ -152,7 +152,21 @@
 <node CREATED="1643753178284" ID="ID_1090635655" MODIFIED="1643753182514" TEXT="Physical"/>
 </node>
 </node>
-<node CREATED="1643061131057" ID="ID_1026587826" LINK="https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework" MODIFIED="1650385455947" TEXT="TOGAF (TBD)">
+<node CREATED="1643061131057" ID="ID_1026587826" LINK="https://www.opengroup.org/togaf" MODIFIED="1650385679196" TEXT="TOGAF (TBD)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://www.opengroup.org/togaf
+    </p>
+    <p>
+      https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1644137715482" ID="ID_1013723107" MODIFIED="1644137723753" TEXT="A"/>
 <node CREATED="1644137718597" ID="ID_588333088" MODIFIED="1644137725018" TEXT="B"/>
 <node CREATED="1644137725457" ID="ID_1898489591" MODIFIED="1644137726010" TEXT="C"/>
