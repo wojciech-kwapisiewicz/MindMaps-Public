@@ -382,7 +382,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#338800" CREATED="1652812995688" ID="ID_711458260" MODIFIED="1661863086193" TEXT="describe Availability zones">
+<node COLOR="#338800" CREATED="1652812995688" ID="ID_711458260" MODIFIED="1662639323589" TEXT="describe Availability zones">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -393,6 +393,18 @@
     </p>
     <p>
       https://docs.microsoft.com/en-us/azure/availability-zones/az-overview
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3 Availability Zones in 1 Region
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <img src="./Img/Azure_availability-zones.png" />
     </p>
   </body>
 </html></richcontent>
@@ -606,7 +618,7 @@
     </p>
   </body>
 </html></richcontent>
-<node COLOR="#338800" CREATED="1661507483978" ID="ID_68766849" MODIFIED="1662026243902" TEXT="compare Azure storage services">
+<node COLOR="#338800" CREATED="1661507483978" ID="ID_68766849" MODIFIED="1662642214545" TEXT="compare Azure storage services">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -615,8 +627,27 @@
     <p>
       https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction
     </p>
+    <p>
+      
+    </p>
+    <p>
+      - Blobs
+    </p>
+    <p>
+      - Files
+    </p>
+    <p>
+      - Queues
+    </p>
+    <p>
+      - Tables
+    </p>
+    <p>
+      - Disks
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node COLOR="#338800" CREATED="1661864385562" ID="ID_1779371620" MODIFIED="1662632456779" TEXT="describe storage tiers">
 <richcontent TYPE="NOTE"><html>
@@ -634,13 +665,460 @@
       https://www.msp360.com/resources/blog/azure-storage-tiers/
     </p>
   </body>
+</html></richcontent>
+</node>
+<node COLOR="#338800" CREATED="1661864392362" ID="ID_1900271829" MODIFIED="1662641881719" TEXT="describe redundancy options">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      When deciding which redundancy option is best for your scenario, consider the tradeoffs between lower costs and higher availability (geo-replication, geo-replication with read access, primary region replication).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Always replicated 3 times in the primary region.
+    </p>
+    <ul>
+      <li>
+        LRS (local redundant storage) - single physical location
+
+        <ul>
+          <li>
+            11 9's durability
+          </li>
+          <li>
+            Write - synchronous
+          </li>
+          <li>
+            No protection over data centre failure
+          </li>
+        </ul>
+      </li>
+      <li>
+        ZRS (Zone-Redundant storage) - asynchronously across three AZ availability zones
+
+        <ul>
+          <li>
+            12 9's durability
+          </li>
+          <li>
+            Write - synchronous
+          </li>
+          <li>
+            Use patterns for transient fault handling (retry polices, exponential back-off)
+          </li>
+          <li>
+            No protection over regional disaster (affecting multiple data centres)
+          </li>
+        </ul>
+      </li>
+      <li>
+        GRS (Geo-Redundant storage)
+
+        <ul>
+          <li>
+            16 9's durability
+          </li>
+          <li>
+            After data is saved to LRS, it is asynchronously copied to single location in Secondary Region
+          </li>
+          <li>
+            Then it is copied LRS within Secondary Region
+          </li>
+        </ul>
+      </li>
+      <li>
+        GZRS (Geo-Zone-Redundant storage)
+
+        <ul>
+          <li>
+            16 9's durability
+          </li>
+          <li>
+            After data is saved to ZRS it is asynchronously copied to single location in Secondary Region
+          </li>
+          <li>
+            Then it is copied synchronously to LRS in Secondary Region
+          </li>
+        </ul>
+      </li>
+      <li>
+        RA-GZRS (Read Access Geo-Zone-Redundant storage)
+
+        <ul>
+          <li>
+            Additionally&#160;data can be Read in Secondary Region)
+          </li>
+        </ul>
+        <p>
+          
+        </p>
+      </li>
+    </ul>
+    <p>
+      RPO - recovery point objective - interval between the most recent writes to the primary region and secondary region. No SLA on that (but it is about 15 mins)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      https://docs.microsoft.com/en-us/azure/storage/common/storage-disaster-recovery-guidance
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Failover - typically takes an hour
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1661864392362" ID="ID_1900271829" MODIFIED="1661864396406" TEXT="describe redundancy options"/>
-<node CREATED="1661864396985" ID="ID_1995774428" MODIFIED="1661864408647" TEXT="describe storage account options and storage types"/>
-<node CREATED="1661864408906" ID="ID_931055701" MODIFIED="1661864430646" TEXT="identify options for moving files, including AzCopy, Azure Storage Explorer and Azure File Sync"/>
-<node CREATED="1661864431050" ID="ID_1842056305" MODIFIED="1661864443551" TEXT="describe migration options, including Azure Migrate and Azure Data Box"/>
+<node COLOR="#338800" CREATED="1661864396985" ID="ID_1995774428" MODIFIED="1662644532739" TEXT="describe storage account options and storage types">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://www.dremio.com/subsurface/azure-data-lake-services/
+    </p>
+    <p>
+      https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Within Azure there are two types of storage accounts (standard/premium on SSD), four types of storage, four levels of data redundancy and three tiers for storing files.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Storage properties:
+    </p>
+    <p>
+      - Name (3-24 chars)
+    </p>
+    <p>
+      - Endpoint (standard - up to 250 storage accounts in region, azure dns preview - up to 5000 storage accounts per region)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Storage options:
+    </p>
+    <ul>
+      <li>
+        Standard general purpose v2
+
+        <ul>
+          <li>
+            Standard usage of Blobs, Files, Tables, Queues
+          </li>
+          <li>
+            No support for Network File System
+          </li>
+        </ul>
+      </li>
+      <li>
+        Premium block blobs
+
+        <ul>
+          <li>
+            Blobs - block blobs , append blobs.
+          </li>
+          <li>
+            Recommended for high transaction rate / consistent low latency
+          </li>
+        </ul>
+      </li>
+      <li>
+        Premium file shares
+
+        <ul>
+          <li>
+            Files
+          </li>
+          <li>
+            Enterprise or high-performance scale application
+          </li>
+          <li>
+            SMB and NFS support
+          </li>
+        </ul>
+      </li>
+      <li>
+        Premium page blogs
+
+        <ul>
+          <li>
+            Page blobs only / LRS only
+          </li>
+        </ul>
+        <p>
+          
+        </p>
+      </li>
+    </ul>
+    <p>
+      <font color="#0033ff">Blobs:</font>
+    </p>
+    <p>
+      - Block blobs - discrete objects (files, img, logs etc) up to 5 TB or 50k x 100 MB each
+    </p>
+    <p>
+      - Page blobs - optimized for random read and write operations, up to 8 TB (standard &amp; premium)
+    </p>
+    <p>
+      - Append blobs - optimized for append (like logs). Up to 50k blocks x 4 MB = 200 GB per append blob
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Tiers:
+    </p>
+    <p>
+      - Hot
+    </p>
+    <p>
+      - Cold
+    </p>
+    <p>
+      - Archive
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033ff">Azure SQL vs Azure Tables</font>
+    </p>
+    <ul>
+      <li>
+        AZ Table Storage
+
+        <ul>
+          <li>
+            Key value pair of 252+3 system rows, max 1 MB per row, max 500 TB total
+          </li>
+        </ul>
+      </li>
+      <li>
+        AZ SQL DB
+
+        <ul>
+          <li>
+            RMDBS, max 2GB per row, max 150 GB total
+          </li>
+        </ul>
+        <p>
+          
+        </p>
+      </li>
+    </ul>
+    <p>
+      <font color="#0033ff">Azure Queues </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - Message of 64KB max,
+    </p>
+    <p>
+      - max 7 days,
+    </p>
+    <p>
+      - queue max of 200TB
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0033ff">Azure Files</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      asd
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#338800" CREATED="1661864408906" ID="ID_931055701" MODIFIED="1662645612681" TEXT="identify options for moving files, including AzCopy, Azure Storage Explorer and Azure File Sync">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.microsoft.com/en-us/azure/architecture/data-guide/scenarios/data-transfer
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Physical move
+    </p>
+    <p>
+      - Azure Import/Export - you send
+    </p>
+    <p>
+      - Azure Data Box - Microsoft organizes
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CMD Tools
+    </p>
+    <p>
+      - Azure CLI - cross-platform tool, manage and upload (and delete etc...)
+    </p>
+    <p>
+      - AzCopy - Win/Linux - copy/move files. Concurency/parallelism/resume. Copy from AWS to Azure. Access programmatically in .NET Core
+    </p>
+    <p>
+      - PowerShell -
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      GUI
+    </p>
+    <p>
+      - Azure Storage Explorer - cross-platform tool, handle blobs/files/queues/tables/AzureCosmosDB, upload/download/, local/storage account
+    </p>
+    <p>
+      - Azure Portal
+    </p>
+    <p>
+      - Azure Data Factory - Workflow based / automated
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Azure File Sync (complementary to Windows Server) - more for optimizing using files on-prem/vs in cloud
+    </p>
+    <p>
+      https://docs.microsoft.com/en-us/azure/storage/file-sync/file-sync-introduction
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#338800" CREATED="1661864431050" ID="ID_1842056305" MODIFIED="1662645969063" TEXT="describe migration options, including Azure Migrate and Azure Data Box">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.microsoft.com/en-us/azure/migrate/migrate-services-overview
+    </p>
+    <p>
+      https://cloud.netapp.com/blog/azure-migration-strategy-four-steps-to-the-cloud
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Migration strategy:
+    </p>
+    <p>
+      <font color="rgb(16, 24, 32)" face="proxima-nova, sans-serif" size="19px">Rehost, Refactor, Rearchitect and Rebuild</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Physical move
+    </p>
+    <p>
+      - Azure Import/Export - you send
+    </p>
+    <p>
+      - Azure Data Box - Microsoft organizes
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Azure Migrate
+    </p>
+    <ul>
+      <li>
+        Full blown migration tool / portal / methodology
+      </li>
+      <li>
+        Assess / migrate / modernize
+      </li>
+      <li>
+        Servers&#160;/ DBs / WebApps / Virtual Desktops / Data
+      </li>
+    </ul>
+    <p>
+      Discovery and assessment
+    </p>
+    <ul>
+      <li>
+        Server migration
+      </li>
+      <li>
+        Data Migration Assistent
+      </li>
+      <li>
+        Azure Database Migration Service
+      </li>
+      <li>
+        Movere (assess servers)
+      </li>
+      <li>
+        We app migration assistant
+      </li>
+      <li>
+        Azure Data Box (offline data migration)
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1661507487978" ID="ID_288944864" MODIFIED="1661849775658" TEXT="Describe Azure identity, access and security (8)">
 <node CREATED="1661507520363" ID="ID_1484547026" MODIFIED="1661849786922" TEXT="..."/>
