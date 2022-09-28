@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1652811308341" ID="ID_334208055" MODIFIED="1652811315642" TEXT="Azure">
+<node COLOR="#338800" CREATED="1652811308341" ID="ID_334208055" MODIFIED="1664360535819" TEXT="Azure">
 <node CREATED="1652811315645" ID="ID_1004909925" MODIFIED="1652811318678" POSITION="right" TEXT="AZ-900">
-<node CREATED="1652812226095" ID="ID_1041404460" MODIFIED="1662715100345" TEXT="Cloud computing concepts (25%-30%)">
+<node CREATED="1652812226095" ID="ID_1041404460" MODIFIED="1664360994128" TEXT="Cloud computing concepts (25%-30%)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,8 +12,9 @@
       https://www.youtube.com/watch?v=PC0oytkz0Do
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1652812237673" ID="ID_398392327" MODIFIED="1664349352784" TEXT="Cloud computing (6)">
+</html>
+</richcontent>
+<node COLOR="#338800" CREATED="1652812237673" FOLDED="true" ID="ID_398392327" MODIFIED="1664361104962" TEXT="Cloud computing (6)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -23,8 +24,9 @@
       https://www.youtube.com/watch?v=7dlCrF2wmXU&amp;list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3&amp;index=7
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1652812320045" ID="ID_1378075145" MODIFIED="1663657782757" TEXT="Define cloud computing">
+</html>
+</richcontent>
+<node COLOR="#338800" CREATED="1652812320045" ID="ID_1378075145" MODIFIED="1664359942160" TEXT="Define cloud computing">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -51,8 +53,22 @@
       
     </p>
     <p>
-      Flexible, scalable, secure, cost-effective and highly configurable
+      Benefits:
     </p>
+    <ul>
+      <li>
+        Highly Available Flexible ,Cost-Effective (Scalability)
+      </li>
+      <li>
+        Reliable and Predictable
+      </li>
+      <li>
+        Secure, Easy to Manage (Governance)
+      </li>
+      <li>
+        Easily and Highly Configurable (Manageability)
+      </li>
+    </ul>
     <p>
       
     </p>
@@ -74,15 +90,50 @@
       </li>
     </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1652812240698" ID="ID_242484895" MODIFIED="1663658058883" TEXT="Describe shared responsibility model (PaaS, SaaS ...)">
+<node COLOR="#338800" CREATED="1652812240698" ID="ID_242484895" MODIFIED="1664360256457" TEXT="Describe shared responsibility model (PaaS, SaaS ...)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
+    <p>
+      Responsibility for managing environment is shared between the Company and Cloud provider (the responsibility segregation depends on the Cloud service type)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Client always responsible for:
+    </p>
+    <ul>
+      <li>
+        Information stored in cloud
+      </li>
+      <li>
+        Devices that are allowed to connect to the cloud (phones, computers, etc.)
+      </li>
+      <li>
+        The accounts and identities of people, services and devices in the organization
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      Cloud provider is always responsible for:
+    </p>
+    <ul>
+      <li>
+        Physical datacentre, network, hosts
+      </li>
+    </ul>
+    <p>
+      
+    </p>
     <p>
       Models:
     </p>
@@ -119,10 +170,11 @@
       </li>
     </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1652812247940" ID="ID_712058313" MODIFIED="1663658065635" TEXT="Define cloud models (public, private, hybrid)">
+<node COLOR="#338800" CREATED="1652812247940" ID="ID_712058313" MODIFIED="1664360558198" TEXT="Define cloud models (public, private, hybrid)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -134,10 +186,58 @@
     <p>
       https://azure.microsoft.com/en-us/overview/what-are-private-public-hybrid-clouds/#overview
     </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>Private cloud</b>
+    </p>
+    <p>
+      Natural evolution of existing datacentre. Used by <b>single entity</b>&#160;- can be hosted in house or outside. More cost, less benefits from cloud.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>Public cloud</b>
+    </p>
+    <p>
+      Third-party solution, <b>publicly available </b>to anyone like Azure/GCP/Amazon
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>Hybrid cloud</b>
+    </p>
+    <p>
+      Combination of both public and private.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>Multi cloud </b>
+    </p>
+    <p>
+      Using multiple cloud providers
+    </p>
+    <ul>
+      <li>
+        Azure+GCP+Amazon
+      </li>
+      <li>
+        Azure Arc to help manage multipvendor solution
+      </li>
+      <li>
+        VMware solution - seemless integration between VMware and Azure
+      </li>
+    </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1653052385774" ID="ID_730421702" MODIFIED="1661863086094" TEXT="Identify appropriate use cases for each cloud model">
+<node COLOR="#338800" CREATED="1653052385774" ID="ID_730421702" MODIFIED="1664360661142" TEXT="Identify appropriate use cases for each cloud model">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -146,10 +246,24 @@
     <p>
       https://youtu.be/NKEFWyqJ5XA?list=PL3NQGmQaHCWYPYt61znee1YaIMbszb5GV&amp;t=1714
     </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <img src="./Img/Azure_CloudModelsUsage.png" />
+      
+    </p>
+    <p>
+      
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1652812269234" ID="ID_260907406" MODIFIED="1661863086101" TEXT="Consumption based model">
+<node COLOR="#338800" CREATED="1652812269234" ID="ID_260907406" MODIFIED="1664360968965" TEXT="Consumption based model">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -161,23 +275,56 @@
     <p>
       https://docs.microsoft.com/en-us/azure/architecture/framework/cost/design-price
     </p>
+    <p>
+      
+    </p>
+    <p>
+      CapEx - capital expenditure, you buy one-time, pay fully up front, then run
+    </p>
+    <p>
+      OpEx - operation expenditure, you pay only for what you consume (no up front payment), pay as you go
+    </p>
+    <ul>
+      <li>
+        No upfront cost
+      </li>
+      <li>
+        No need to purchase and manage costly infrastructure that might not be fully utilised
+      </li>
+      <li>
+        Ability to pay for more resources if needed
+      </li>
+      <li>
+        Ability to stop paying for unused resources
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      <b>Azure Cloud is consumption-based mode. You pay for what you use (OpEx model).</b>
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1652812293735" ID="ID_393717119" MODIFIED="1661863086110" TEXT="Cloud pricing models">
+<node COLOR="#338800" CREATED="1652812293735" ID="ID_393717119" MODIFIED="1664360943030" TEXT="Cloud pricing models">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      TCO
-    </p>
-    <p>
       https://youtu.be/NKEFWyqJ5XA?list=PL3NQGmQaHCWYPYt61znee1YaIMbszb5GV&amp;t=1860
     </p>
     <p>
       https://youtu.be/NKEFWyqJ5XA?list=PL3NQGmQaHCWYPYt61znee1YaIMbszb5GV&amp;t=2001
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      TCO
     </p>
     <p>
       CAPEX - capital expense (up-front)
@@ -188,12 +335,29 @@
     <p>
       &#160;
     </p>
+    <p>
+      Cloud computing is the delivery of computing services over the internet by using a pay-as-you-go pricing model. You typically pay only for the cloud services you use, which helps you:
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        Plan and manage your operating costs.
+      </li>
+      <li>
+        Run your infrastructure more efficiently.
+      </li>
+      <li>
+        Scale as your business needs change.
+      </li>
+    </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1652812339393" ID="ID_809475985" MODIFIED="1664349354440" TEXT="Benefits of using cloud services (4)">
-<node CREATED="1652812353655" ID="ID_73888891" MODIFIED="1664351698001" TEXT="Describe the benefits of High Availability and Scalability">
+<node COLOR="#338800" CREATED="1652812339393" FOLDED="true" ID="ID_809475985" MODIFIED="1664361106497" TEXT="Benefits of using cloud services (4)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -202,41 +366,144 @@
     <p>
       https://youtu.be/NKEFWyqJ5XA?list=PL3NQGmQaHCWYPYt61znee1YaIMbszb5GV&amp;t=2102
     </p>
-    <p>
-      High Availability
-    </p>
-    <p>
-      Scalability
-    </p>
-    <p>
-      Elasticity
-    </p>
-    <p>
-      Fault Tolerance
-    </p>
-    <p>
-      High Durability (Disastery Recovery)
-    </p>
+    <ol>
+      <li>
+        1. High Availability &amp; Scalability (Elasticity &amp; Agility)
+      </li>
+      <li>
+        Fault Tolerance
+      </li>
+      <li>
+        High Durability (Disastery Recovery)
+      </li>
+    </ol>
   </body>
-</html></richcontent>
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1652812365287" ID="ID_1668326968" MODIFIED="1664351709698" TEXT="Describe the benefits of Reliability and Predictability">
+</html>
+</richcontent>
+<node COLOR="#338800" CREATED="1652812353655" ID="ID_73888891" MODIFIED="1664359104459" TEXT="Describe the benefits of High Availability and Scalability">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
+      https://www.microsoftpressstore.com/articles/article.aspx?p=2979073
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>High Availability - focus on ensuring maximum availability (if data/app is unavailable then nothing else matters)</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Potential issues
+    </p>
+    <p>
+      - Power outage
+    </p>
+    <p>
+      - Network outage
+    </p>
+    <p>
+      - System/machine outage
+    </p>
+    <p>
+      - Application failure
+    </p>
+    <p>
+      - External system reliability
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Some of the issues are managed by cloud provided, for others you are responsible but cloud provider provides tools to do so (depending on the cloud service type).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>Scalability (agility &amp; elasticity) - ability to scale and minimize costs (scalability &amp; elasticity) flexibly (agility)</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - Scalability &amp; Elasticity - horizontal and vertical
+    </p>
+    <p>
+      -&#160;Agility - in scaling, can be done ad hoc, Azure Auto-Scale service - can scale automatically
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#338800" CREATED="1652812365287" ID="ID_1668326968" MODIFIED="1664359079655" TEXT="Describe the benefits of Reliability and Predictability">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud
+    </p>
+    <p>
       https://www.youtube.com/watch?v=kD2YqdDaO1w&amp;list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3&amp;index=8
     </p>
     <p>
       https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/overview
     </p>
+    <p>
+      https://www.microsoftpressstore.com/articles/article.aspx?p=2979073
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>Reliability - ability to recover from failures </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - Shared responsibility model
+    </p>
+    <p>
+      - Ensuring high availability architecture
+    </p>
+    <p>
+      - Built-in resilience (regions / availability zones / Azure Site Recovery)
+    </p>
+    <p>
+      - Fault tolerance (automatic move from unhealthy to healthy system, fault domains/update domains)
+    </p>
+    <p>
+      - Recovery scenarios from failures
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>Predictability - gives you confidence</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - Performance predictability (autoscaling/load balancer/high availability etc...)
+    </p>
+    <p>
+      - Cost predictability (TCO calculator / Pricing Calculator)
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1652812377124" ID="ID_245090196" MODIFIED="1664351719330" TEXT="Describe the benefits of Security and Governance">
+<node COLOR="#338800" CREATED="1652812377124" ID="ID_245090196" MODIFIED="1664359390978" TEXT="Describe the benefits of Security and Governance">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -245,10 +512,57 @@
     <p>
       https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/govern-org-compliance?tabs=AzureBlueprints
     </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>Security</b>&#160;- design with maximum security in mind
+    </p>
+    <ul>
+      <li>
+        security by design
+      </li>
+      <li>
+        DDoS protection, robust and secure network etc
+      </li>
+      <li>
+        Firewall / Azure MS Defender
+      </li>
+      <li>
+        RBAC
+      </li>
+      <li>
+        automatic patching (depending on service)
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      <b>Governance</b>&#160;- ease in management of the environments governance (corporate standards) and compliance (regulatory requirements)
+    </p>
+    <ul>
+      <li>
+        Policies
+      </li>
+      <li>
+        Blueprints
+      </li>
+      <li>
+        Resource groups
+      </li>
+      <li>
+        Management groups
+      </li>
+      <li>
+        Auditing
+      </li>
+    </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1652812385853" ID="ID_772544389" MODIFIED="1664351728818" TEXT="Describe the benefits of Manageability">
+<node COLOR="#338800" CREATED="1652812385853" ID="ID_772544389" MODIFIED="1664359541193" TEXT="Describe the benefits of Manageability">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -257,11 +571,33 @@
     <p>
       https://docs.microsoft.com/en-us/azure/governance/azure-management
     </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>Manageability - focus on making managing resources easy</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Plenty of tools dedicated to that:
+    </p>
+    <p>
+      - UI / Portal
+    </p>
+    <p>
+      - Command lines etc.
+    </p>
+    <p>
+      - APIs
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652812400373" ID="ID_39102235" MODIFIED="1664351572564" TEXT="Cloud service types (4)">
+<node CREATED="1652812400373" ID="ID_39102235" MODIFIED="1664361130624" TEXT="Cloud service types (4)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -339,7 +675,7 @@
 </node>
 </node>
 <node CREATED="1652812232533" ID="ID_1213166126" MODIFIED="1663674026434" TEXT="Azure architecture and services (35%-40%)">
-<node COLOR="#338800" CREATED="1652812970558" FOLDED="true" ID="ID_1008249709" MODIFIED="1664351549127" TEXT="Core architectural components (7)">
+<node CREATED="1652812970558" ID="ID_1008249709" MODIFIED="1664361131585" TEXT="Core architectural components (7)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -489,7 +825,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652813069808" FOLDED="true" ID="ID_260957138" MODIFIED="1664351498006" TEXT="Azure compute and networking services (6)">
+<node CREATED="1652813069808" ID="ID_260957138" MODIFIED="1664361133200" TEXT="Azure compute and networking services (6)">
 <node COLOR="#338800" CREATED="1652813076630" ID="ID_844010621" MODIFIED="1664351497057" TEXT="Compare Compute types, including container instances, virtual machines (VMs), functions">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -626,7 +962,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652813101633" FOLDED="true" ID="ID_1882067370" MODIFIED="1664351356949" TEXT="Describe Azure storage services (6)">
+<node CREATED="1652813101633" ID="ID_1882067370" MODIFIED="1664361134447" TEXT="Describe Azure storage services (6)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1146,7 +1482,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1661507487978" FOLDED="true" ID="ID_288944864" MODIFIED="1664351331164" TEXT="Describe Azure identity, access and security (8)">
+<node CREATED="1661507487978" ID="ID_288944864" MODIFIED="1664361135487" TEXT="Describe Azure identity, access and security (8)">
 <node COLOR="#338800" CREATED="1661507520363" ID="ID_1484547026" MODIFIED="1664351266288" TEXT="Describe directory services in Azure, including Azure Active Directory (Azure AD) and Azure Active Directory Domain Services (Azure AD DS)">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1552,7 +1888,7 @@
 </node>
 </node>
 <node CREATED="1652813098379" ID="ID_941498720" MODIFIED="1661851712297" TEXT="Azure management and governance (30% - 35%)">
-<node COLOR="#338800" CREATED="1653053414898" FOLDED="true" ID="ID_124597491" MODIFIED="1664351223137" TEXT="Describe cost management in Azure (4)">
+<node CREATED="1653053414898" ID="ID_124597491" MODIFIED="1664361136528" TEXT="Describe cost management in Azure (4)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1642,7 +1978,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1653053419793" FOLDED="true" ID="ID_175914971" MODIFIED="1664351248727" TEXT="Describe features and tools in Azure for governance and compliance (4)">
+<node CREATED="1653053419793" ID="ID_175914971" MODIFIED="1664361137344" TEXT="Describe features and tools in Azure for governance and compliance (4)">
 <node COLOR="#338800" CREATED="1661849657759" ID="ID_1520936643" MODIFIED="1664202722599" TEXT="Describe the purpose of Azure Blueprints">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1748,7 +2084,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1661849663518" FOLDED="true" ID="ID_1878046654" MODIFIED="1664350451535" TEXT="Describe features and tools for managing and deploying Azure resources (4)">
+<node CREATED="1661849663518" ID="ID_1878046654" MODIFIED="1664361138399" TEXT="Describe features and tools for managing and deploying Azure resources (4)">
 <node COLOR="#338800" CREATED="1661849682895" ID="ID_1035559403" MODIFIED="1664295702357" TEXT="Describe the Azure portal">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1923,7 +2259,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1661849695406" FOLDED="true" ID="ID_1781479729" MODIFIED="1664350436760" TEXT="Describe monitoring tools for Azure (3)">
+<node CREATED="1661849695406" ID="ID_1781479729" MODIFIED="1664361139859" TEXT="Describe monitoring tools for Azure (3)">
 <node COLOR="#338800" CREATED="1661849702784" ID="ID_459450728" MODIFIED="1664298067675" TEXT="Describe the purpose of Azure Advisor">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2064,7 +2400,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1655899151215" ID="ID_854061275" MODIFIED="1664349453469" POSITION="left" TEXT="Full courses">
+<node CREATED="1655899151215" ID="ID_854061275" MODIFIED="1664352258656" POSITION="left" TEXT="Full courses">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2110,8 +2446,11 @@
 </node>
 <node CREATED="1664349650689" ID="ID_389876055" LINK="https://www.youtube.com/playlist?list=PL6n9fhu94yhVIhqTz-LBfwgz_Amz7rRLp" MODIFIED="1664349658829" TEXT="YT - Tutorial for beginners"/>
 </node>
+<node CREATED="1664359514471" ID="ID_1187769868" MODIFIED="1664359518757" TEXT="Extras">
+<node CREATED="1664359519240" ID="ID_1804875527" LINK="https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/" MODIFIED="1664359532334" TEXT="Azure Well Architected Framework"/>
 </node>
-<node CREATED="1661860831754" ID="ID_1866294814" MODIFIED="1664349577860" POSITION="left" TEXT="Example questions">
+</node>
+<node CREATED="1661860831754" ID="ID_1866294814" MODIFIED="1664352259470" POSITION="left" TEXT="Example questions">
 <node CREATED="1663656468974" ID="ID_1687884241" LINK="https://learn.microsoft.com/en-us/certifications/resources/az-900-sample-questions?azure-portal=true" MODIFIED="1664349609599" TEXT="Web - Sample from MS"/>
 <node CREATED="1664349583280" ID="ID_1972623497" LINK="https://www.youtube.com/playlist?list=PL0AYtrUw-NRSbS9x-vcAlN6nG7w0wlHVj" MODIFIED="1664349592115" TEXT="YT- The Tech Blackboard"/>
 <node CREATED="1664349768337" ID="ID_741642003" LINK="https://www.youtube.com/playlist?list=PLkHGwKskwHnaK8mlqGNpghnwySyC4sI5t" MODIFIED="1664349779356" TEXT="YT - Scott Duffy"/>
@@ -2131,8 +2470,8 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1661849731647" ID="ID_1349916043" MODIFIED="1664203684870" POSITION="left" TEXT="Progress">
-<node COLOR="#338800" CREATED="1661849750958" ID="ID_273079012" MODIFIED="1664349397442" TEXT="46 (56) / 56"/>
+<node CREATED="1661849731647" ID="ID_1349916043" MODIFIED="1664360978034" POSITION="left" TEXT="Progress">
+<node COLOR="#338800" CREATED="1661849750958" ID="ID_273079012" MODIFIED="1664360982347" TEXT="56 / 56"/>
 </node>
 </node>
 </map>
