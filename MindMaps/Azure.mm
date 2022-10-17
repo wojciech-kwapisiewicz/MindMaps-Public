@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#338800" CREATED="1652811308341" ID="ID_334208055" MODIFIED="1664360535819" TEXT="Azure">
+<node COLOR="#006633" CREATED="1652811308341" ID="ID_334208055" MODIFIED="1664374665691" TEXT="Azure">
 <node CREATED="1652811315645" ID="ID_1004909925" MODIFIED="1652811318678" POSITION="right" TEXT="AZ-900">
-<node CREATED="1652812226095" ID="ID_1041404460" MODIFIED="1664360994128" TEXT="Cloud computing concepts (25%-30%)">
+<node COLOR="#338800" CREATED="1652812226095" ID="ID_1041404460" MODIFIED="1665959574678" TEXT="Cloud computing concepts (25%-30%)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,9 +12,8 @@
       https://www.youtube.com/watch?v=PC0oytkz0Do
     </p>
   </body>
-</html>
-</richcontent>
-<node COLOR="#338800" CREATED="1652812237673" FOLDED="true" ID="ID_398392327" MODIFIED="1664361104962" TEXT="Cloud computing (6)">
+</html></richcontent>
+<node COLOR="#338800" CREATED="1652812237673" FOLDED="true" ID="ID_398392327" MODIFIED="1664374557344" TEXT="Cloud computing (6)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -24,8 +23,7 @@
       https://www.youtube.com/watch?v=7dlCrF2wmXU&amp;list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3&amp;index=7
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#338800" CREATED="1652812320045" ID="ID_1378075145" MODIFIED="1664359942160" TEXT="Define cloud computing">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -90,8 +88,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#338800" CREATED="1652812240698" ID="ID_242484895" MODIFIED="1664360256457" TEXT="Describe shared responsibility model (PaaS, SaaS ...)">
@@ -170,8 +167,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#338800" CREATED="1652812247940" ID="ID_712058313" MODIFIED="1664360558198" TEXT="Define cloud models (public, private, hybrid)">
@@ -234,8 +230,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#338800" CREATED="1653052385774" ID="ID_730421702" MODIFIED="1664360661142" TEXT="Identify appropriate use cases for each cloud model">
 <richcontent TYPE="NOTE"><html>
@@ -260,8 +255,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#338800" CREATED="1652812269234" ID="ID_260907406" MODIFIED="1664360968965" TEXT="Consumption based model">
 <richcontent TYPE="NOTE"><html>
@@ -305,8 +299,7 @@
       <b>Azure Cloud is consumption-based mode. You pay for what you use (OpEx model).</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#338800" CREATED="1652812293735" ID="ID_393717119" MODIFIED="1664360943030" TEXT="Cloud pricing models">
 <richcontent TYPE="NOTE"><html>
@@ -353,11 +346,10 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652812339393" FOLDED="true" ID="ID_809475985" MODIFIED="1664361106497" TEXT="Benefits of using cloud services (4)">
+<node COLOR="#338800" CREATED="1652812339393" FOLDED="true" ID="ID_809475985" MODIFIED="1664374559290" TEXT="Benefits of using cloud services (4)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -378,8 +370,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#338800" CREATED="1652812353655" ID="ID_73888891" MODIFIED="1664359104459" TEXT="Describe the benefits of High Availability and Scalability">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -438,8 +429,7 @@
       -&#160;Agility - in scaling, can be done ad hoc, Azure Auto-Scale service - can scale automatically
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node COLOR="#338800" CREATED="1652812365287" ID="ID_1668326968" MODIFIED="1664359079655" TEXT="Describe the benefits of Reliability and Predictability">
@@ -500,8 +490,7 @@
       - Cost predictability (TCO calculator / Pricing Calculator)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#338800" CREATED="1652812377124" ID="ID_245090196" MODIFIED="1664359390978" TEXT="Describe the benefits of Security and Governance">
 <richcontent TYPE="NOTE"><html>
@@ -559,8 +548,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#338800" CREATED="1652812385853" ID="ID_772544389" MODIFIED="1664359541193" TEXT="Describe the benefits of Manageability">
 <richcontent TYPE="NOTE"><html>
@@ -593,11 +581,10 @@
       - APIs
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1652812400373" ID="ID_39102235" MODIFIED="1664361130624" TEXT="Cloud service types (4)">
+<node COLOR="#338800" CREATED="1652812400373" FOLDED="true" ID="ID_39102235" MODIFIED="1664376129402" TEXT="Cloud service types (4)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -626,14 +613,17 @@
     </p>
   </body>
 </html></richcontent>
-<node COLOR="#338800" CREATED="1652812410168" ID="ID_1144467515" MODIFIED="1663674040807" TEXT="Describe IaaS">
+<node COLOR="#338800" CREATED="1652812410168" ID="ID_1144467515" MODIFIED="1664375177166" TEXT="Describe IaaS">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      sdfds
+      Most flexible, maximum control on the Client, most responsibility is on Client.
+    </p>
+    <p>
+      
     </p>
     <p>
       <img src="./Img/Azure_IaaS.png" />
@@ -641,14 +631,14 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#338800" CREATED="1652812416188" ID="ID_250632059" MODIFIED="1663674044679" TEXT="Describe PaaS">
+<node COLOR="#338800" CREATED="1652812416188" ID="ID_250632059" MODIFIED="1664375404863" TEXT="Describe PaaS">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      sdfds
+      Middle ground between IaaS and SaaS. You don't have to worry about licensing, patching of operating systems but you still need to implement application (code or no-code on your own).
     </p>
     <p>
       <img src="./Img/Azure_PaaS.png" />
@@ -656,14 +646,20 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#338800" CREATED="1652812419495" ID="ID_626999180" MODIFIED="1663674056987" TEXT="Describe SaaS">
+<node COLOR="#338800" CREATED="1652812419495" ID="ID_626999180" MODIFIED="1664375771539" TEXT="Describe SaaS">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      sdfds
+      Most complete cloud service - renting fully developed cloud application where client is only considered with configuration/user setup and data kept in the application (think like Outlook365 or Concur Expenses).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      It is the <b>least flexible </b>but <b>easiest and quickest to set up </b>and require <b>least technical expertise</b>.
     </p>
     <p>
       <img src="./Img/Azure_SaaS.png" />
@@ -671,11 +667,73 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#338800" CREATED="1652812421696" ID="ID_1827401283" MODIFIED="1663674069948" TEXT="Identify appropriate use case for each cloud service (IaaS, PaaS, SaaS)"/>
+<node COLOR="#338800" CREATED="1652812421696" ID="ID_1827401283" MODIFIED="1664375819072" TEXT="Identify appropriate use case for each cloud service (IaaS, PaaS, SaaS)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>IaaS</b>
+    </p>
+    <ul>
+      <li>
+        Lift and shift migrations for instance for legacy code (as you can treat Cloud like On-Prem and install anything you need)
+      </li>
+      <li>
+        Testing and development. For instance for rapid replication of environments with ability to spin up and tear down.
+      </li>
+      <li>
+        Very customized development where Azure do not have services available yet.
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      <b>PaaS</b>
+    </p>
+    <ul>
+      <li>
+        Development framework - for building cloud based applications reducing amount of work developers need to do (like maintaining physical infrastructure)
+      </li>
+      <li>
+        Analytics or business intelligence - Azure provides variety of tools for mining data, finding insights and data, predicting outcomes, forecasting and so on.
+      </li>
+      <li>
+        Any other solutions where Azure have suitable technologies but there is no ready to use application available on the market.
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      <b>SaaS</b>
+    </p>
+    <ul>
+      <li>
+        Email, messaging
+      </li>
+      <li>
+        Business productivity applications
+      </li>
+      <li>
+        Finance and expence tracking
+      </li>
+      <li>
+        Any other fairly generic topic
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1652812232533" ID="ID_1213166126" MODIFIED="1663674026434" TEXT="Azure architecture and services (35%-40%)">
-<node CREATED="1652812970558" ID="ID_1008249709" MODIFIED="1664361131585" TEXT="Core architectural components (7)">
+</node>
+<node COLOR="#338800" CREATED="1652812232533" ID="ID_1213166126" MODIFIED="1665959575546" TEXT="Azure architecture and services (35%-40%)">
+<node COLOR="#338800" CREATED="1652812970558" FOLDED="true" ID="ID_1008249709" MODIFIED="1665508772565" TEXT="Core architectural components (7)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -683,6 +741,15 @@
   <body>
     <p>
       https://azure.microsoft.com/en-gb/global-infrastructure/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Physical infrastructure components
+    </p>
+    <p>
+      Management infrastructure components
     </p>
   </body>
 </html></richcontent>
@@ -825,8 +892,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1652813069808" ID="ID_260957138" MODIFIED="1664361133200" TEXT="Azure compute and networking services (6)">
-<node COLOR="#338800" CREATED="1652813076630" ID="ID_844010621" MODIFIED="1664351497057" TEXT="Compare Compute types, including container instances, virtual machines (VMs), functions">
+<node COLOR="#338800" CREATED="1652813069808" FOLDED="true" ID="ID_260957138" MODIFIED="1665527861441" TEXT="Azure compute and networking services (6)">
+<node COLOR="#338800" CREATED="1652813076630" ID="ID_844010621" MODIFIED="1665519145476" TEXT="Compare Compute types, including container instances, virtual machines (VMs), functions">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -842,46 +909,22 @@
       
     </p>
     <p>
-      Azure offers several compute services like the following
+      Azure offers several compute services like the following key services:
     </p>
     <p>
-      - App Service
+      - Azure Virtual Machines
     </p>
     <p>
-      - App Service Container
+      - Azure Virtual Desktop
     </p>
     <p>
-      - Virtual Machines
+      - Azure Container Instances
     </p>
     <p>
-      - Azure Batch
+      - Azure Kubernetes Service (AKS - Managed Kubernetes Service)
     </p>
     <p>
-      - Azure Functions
-    </p>
-    <p>
-      - Service Fabric
-    </p>
-    <p>
-      - Container Instances
-    </p>
-    <p>
-      - Azure Kubernetes Service
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      https://walkerscott.co/2020/03/azure-logic-apps-vs-azure-functions/
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Logic Apps -&gt; No-Code flows
-    </p>
-    <p>
-      Azure Functions -&gt; Quick (&lt;30 mins) funtions written in code (like CSharp)
+      - Azure Functions (serverless, quick, stateless and stateful/durable)
     </p>
   </body>
 </html></richcontent>
@@ -922,7 +965,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#338800" CREATED="1652813151891" ID="ID_1626147025" MODIFIED="1664351481473" TEXT="Describe Application hosting options (inc. Web APIs feature of Azure App Service, containers, virtual machines)">
+<node COLOR="#338800" CREATED="1652813151891" ID="ID_1626147025" MODIFIED="1665519488488" TEXT="Describe Application hosting options (inc. Web APIs feature of Azure App Service, containers, virtual machines)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -931,10 +974,63 @@
     <p>
       https://docs.microsoft.com/en-us/azure/developer/intro/hosting-apps-on-azure
     </p>
+    <p>
+      
+    </p>
+    <p>
+      Other hosting options:
+    </p>
+    <ul>
+      <li>
+        App Service
+
+        <ul>
+          <li>
+            Web Apps - ASP.NET, ASP.NET Core, Java, Ruby, Node.js, PHP, or Python
+          </li>
+          <li>
+            API Apps
+          </li>
+          <li>
+            Web Jobs - .exe, Java, PHP, Python, Node.js or script (.cmd, .bat, PowerShell, or Bash)
+          </li>
+          <li>
+            Mobile Apps - iOS/Android
+          </li>
+        </ul>
+      </li>
+      <li>
+        Azure Spring Apps
+      </li>
+      <li>
+        Azure Static Web Apps
+      </li>
+      <li>
+        Azure Batch
+      </li>
+      <li>
+        Service Fabric
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      https://walkerscott.co/2020/03/azure-logic-apps-vs-azure-functions/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Logic Apps -&gt; No-Code flows
+    </p>
+    <p>
+      Azure Functions (including Durable Functions) -&gt; Quick (&lt;30 mins) funtions written in code (like CSharp)
+    </p>
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#338800" CREATED="1652813184553" ID="ID_826892619" MODIFIED="1664351475509" TEXT="Describe Virtual networking (inc. purpose of Azure Virtual Networks, Azure virtual subnets, Azure DNS, Azure VPN Gateway, Azure ExpressRoute)">
+<node COLOR="#338800" CREATED="1652813184553" ID="ID_826892619" MODIFIED="1665527529232" TEXT="Describe Virtual networking (inc. purpose of Azure Virtual Networks, Azure virtual subnets, Azure DNS, Azure VPN Gateway, Azure ExpressRoute)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -943,6 +1039,26 @@
     <p>
       https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
     </p>
+    <p>
+      
+    </p>
+    <p>
+      Azure Express Route
+    </p>
+    <ul>
+      <li>
+        CloudExchange colocation
+      </li>
+      <li>
+        Point-to-point Ethernet connection
+      </li>
+      <li>
+        Any-to-any connection
+      </li>
+      <li>
+        Directly from ExpressRoute sites
+      </li>
+    </ul>
   </body>
 </html></richcontent>
 </node>
@@ -962,7 +1078,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1652813101633" ID="ID_1882067370" MODIFIED="1664361134447" TEXT="Describe Azure storage services (6)">
+<node COLOR="#338800" CREATED="1652813101633" FOLDED="true" ID="ID_1882067370" MODIFIED="1665571423504" TEXT="Describe Azure storage services (6)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1482,7 +1598,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1661507487978" ID="ID_288944864" MODIFIED="1664361135487" TEXT="Describe Azure identity, access and security (8)">
+<node COLOR="#338800" CREATED="1661507487978" FOLDED="true" ID="ID_288944864" MODIFIED="1665955964248" TEXT="Describe Azure identity, access and security (8)">
 <node COLOR="#338800" CREATED="1661507520363" ID="ID_1484547026" MODIFIED="1664351266288" TEXT="Describe directory services in Azure, including Azure Active Directory (Azure AD) and Azure Active Directory Domain Services (Azure AD DS)">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1778,8 +1894,7 @@
       <b>Assume breach</b>&#160;- Minimize blast radius and segment access. Verify end-to-end encryption and use analytics to get visibility, drive threat detection, and improve defenses
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#338800" CREATED="1662715048163" ID="ID_1783141969" MODIFIED="1664351288515" TEXT="Describe the purpose of the defense in depth model">
 <richcontent TYPE="NOTE"><html>
@@ -1887,8 +2002,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1652813098379" ID="ID_941498720" MODIFIED="1661851712297" TEXT="Azure management and governance (30% - 35%)">
-<node CREATED="1653053414898" ID="ID_124597491" MODIFIED="1664361136528" TEXT="Describe cost management in Azure (4)">
+<node COLOR="#338800" CREATED="1652813098379" ID="ID_941498720" MODIFIED="1665961140997" TEXT="Azure management and governance (30% - 35%)">
+<node COLOR="#338800" CREATED="1653053414898" FOLDED="true" ID="ID_124597491" MODIFIED="1665958132889" TEXT="Describe cost management in Azure (4)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1932,8 +2047,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#338800" CREATED="1663692712745" ID="ID_240282015" MODIFIED="1663693751414" TEXT="Compare the Pricing calculator and the Total Cost of Ownership (TCO) calculator">
 <richcontent TYPE="NOTE"><html>
@@ -1978,7 +2092,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1653053419793" ID="ID_175914971" MODIFIED="1664361137344" TEXT="Describe features and tools in Azure for governance and compliance (4)">
+<node COLOR="#338800" CREATED="1653053419793" FOLDED="true" ID="ID_175914971" MODIFIED="1665959211854" TEXT="Describe features and tools in Azure for governance and compliance (4)">
 <node COLOR="#338800" CREATED="1661849657759" ID="ID_1520936643" MODIFIED="1664202722599" TEXT="Describe the purpose of Azure Blueprints">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2084,7 +2198,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1661849663518" ID="ID_1878046654" MODIFIED="1664361138399" TEXT="Describe features and tools for managing and deploying Azure resources (4)">
+<node COLOR="#338800" CREATED="1661849663518" FOLDED="true" ID="ID_1878046654" MODIFIED="1665960533245" TEXT="Describe features and tools for managing and deploying Azure resources (4)">
 <node COLOR="#338800" CREATED="1661849682895" ID="ID_1035559403" MODIFIED="1664295702357" TEXT="Describe the Azure portal">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2259,7 +2373,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1661849695406" ID="ID_1781479729" MODIFIED="1664361139859" TEXT="Describe monitoring tools for Azure (3)">
+<node COLOR="#338800" CREATED="1661849695406" FOLDED="true" ID="ID_1781479729" MODIFIED="1665961142867" TEXT="Describe monitoring tools for Azure (3)">
 <node COLOR="#338800" CREATED="1661849702784" ID="ID_459450728" MODIFIED="1664298067675" TEXT="Describe the purpose of Azure Advisor">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2434,11 +2548,10 @@
       https://www.youtube.com/watch?v=mXLRljo7pnY&amp;list=PL3NQGmQaHCWYPYt61znee1YaIMbszb5GV&amp;index=5&amp;t=1s
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1664349459555" ID="ID_460982053" MODIFIED="1664349465032" TEXT="AZ-900">
-<node CREATED="1664203267479" ID="ID_263232303" LINK="https://www.testpreptraining.com/tutorial/microsoft-azure-fundamentals-az-900" MODIFIED="1664349620973" TEXT="Web - https://www.testpreptraining.com/"/>
 <node CREATED="1664349871777" ID="ID_1162539056" LINK="https://learn.microsoft.com/en-us/certifications/exams/az-900?tab=tab-learning-paths" MODIFIED="1664349897966" TEXT="Web - Microsoft - Online Free Self Learning"/>
+<node CREATED="1664203267479" ID="ID_263232303" LINK="https://www.testpreptraining.com/tutorial/microsoft-azure-fundamentals-az-900" MODIFIED="1664349620973" TEXT="Web - https://www.testpreptraining.com/"/>
 <node CREATED="1664349381828" ID="ID_1757136468" LINK="https://www.youtube.com/playlist?list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3" MODIFIED="1664349687693" TEXT="YT - John Savill"/>
 <node CREATED="1664349747041" ID="ID_1085536413" LINK="https://www.youtube.com/playlist?list=PLGjZwEtPN7j-Q59JYso3L4_yoCjj2syrM" MODIFIED="1664349754514" TEXT="YT - Adam Marczak"/>
 <node CREATED="1664349434130" FOLDED="true" ID="ID_1920267463" LINK="https://www.youtube.com/playlist?list=PL0AYtrUw-NRRvjDqOZhBRvP8CK8LNsa1L" MODIFIED="1664349623793" TEXT="YT - The Tech Blackboard">
@@ -2470,7 +2583,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1661849731647" ID="ID_1349916043" MODIFIED="1664360978034" POSITION="left" TEXT="Progress">
+<node COLOR="#338800" CREATED="1661849731647" ID="ID_1349916043" MODIFIED="1665958058273" POSITION="left" TEXT="Progress">
 <node COLOR="#338800" CREATED="1661849750958" ID="ID_273079012" MODIFIED="1664360982347" TEXT="56 / 56"/>
 </node>
 </node>
