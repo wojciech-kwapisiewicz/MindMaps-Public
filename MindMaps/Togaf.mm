@@ -7,7 +7,18 @@
 <node CREATED="1677795470663" ID="ID_1583892502" MODIFIED="1677795473313" TEXT="Application"/>
 <node CREATED="1677795473582" ID="ID_1185249368" MODIFIED="1677795476866" TEXT="Technology"/>
 </node>
-<node CREATED="1677795477693" ID="ID_1384617628" MODIFIED="1677943211475" POSITION="right" TEXT="ADM (Application Development Model)">
+<node CREATED="1677795477693" ID="ID_1384617628" MODIFIED="1678180996187" POSITION="right" TEXT="ADM (Application Development Model)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://circle.visual-paradigm.com/docs/togaf-adm-guide-through/
+    </p>
+  </body>
+</html>
+</richcontent>
 <node CREATED="1677795480159" ID="ID_1159011532" MODIFIED="1677795590089" TEXT="Preliminary"/>
 <node CREATED="1677795483655" ID="ID_536582356" MODIFIED="1677795603624" TEXT="Define Vision (A)"/>
 <node CREATED="1677795548503" ID="ID_1621359077" MODIFIED="1677795600872" TEXT="Define BDAT (B,C,D)"/>
@@ -16,7 +27,7 @@
 <node CREATED="1677795623875" ID="ID_1003421729" MODIFIED="1677795631088" TEXT="Change management (H)"/>
 <node CREATED="1677795631484" ID="ID_668482501" MODIFIED="1677795642433" TEXT="Requirements management (ongoing)"/>
 </node>
-<node CREATED="1677795493597" FOLDED="true" ID="ID_1489785706" MODIFIED="1677797748419" POSITION="right" TEXT="Work products">
+<node CREATED="1677795493597" ID="ID_1489785706" MODIFIED="1678181053911" POSITION="right" TEXT="Work products">
 <node CREATED="1677795496749" ID="ID_1274515759" MODIFIED="1677795499241" TEXT="Deliverables"/>
 <node CREATED="1677795500157" ID="ID_1433721377" MODIFIED="1677795505190" TEXT="Artifacts">
 <node CREATED="1677795505190" ID="ID_1786138943" MODIFIED="1677795506594" TEXT="Lists"/>
@@ -53,8 +64,7 @@
       https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </map>

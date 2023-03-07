@@ -30,7 +30,8 @@
 <node CREATED="1642937120024" ID="ID_1428092410" MODIFIED="1642937127078" TEXT="Change Management Game"/>
 </node>
 </node>
-<node CREATED="1642936902860" ID="ID_1363034529" MODIFIED="1642936905816" TEXT="Leader">
+<node COLOR="#ff0000" CREATED="1642936902860" ID="ID_1363034529" MODIFIED="1678181091181" TEXT="Leader">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1644137800615" ID="ID_1807548910" MODIFIED="1644137809623" TEXT="Show the way"/>
 <node CREATED="1642936916204" ID="ID_1761570701" MODIFIED="1642936918806" TEXT="Lead the way"/>
 <node CREATED="1644137810292" ID="ID_925805812" MODIFIED="1644137812897" TEXT="Get out of the way"/>
@@ -64,8 +65,7 @@
       https://age-of-product.com/sprint-anti-patterns/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -183,12 +183,12 @@
       https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1644137715482" ID="ID_1013723107" MODIFIED="1644137723753" TEXT="A"/>
-<node CREATED="1644137718597" ID="ID_588333088" MODIFIED="1644137725018" TEXT="B"/>
-<node CREATED="1644137725457" ID="ID_1898489591" MODIFIED="1644137726010" TEXT="C"/>
-<node CREATED="1650385403346" ID="ID_361373038" MODIFIED="1650385407542" TEXT="D, E, F, G, H"/>
+<node CREATED="1644137718597" ID="ID_588333088" MODIFIED="1678180951262" TEXT="Design (BCD)"/>
+<node CREATED="1644137725457" ID="ID_1898489591" MODIFIED="1678180957542" TEXT="Planning (EF)"/>
+<node CREATED="1650385403346" ID="ID_361373038" MODIFIED="1678180964485" TEXT="Transition (G)"/>
+<node CREATED="1678180964918" ID="ID_790905615" MODIFIED="1678180970646" TEXT="Execution (H)"/>
 </node>
 </node>
 <node CREATED="1643752946186" ID="ID_1009013875" MODIFIED="1643753396232" TEXT="BuzzWords">
@@ -224,8 +224,7 @@
       https://replit.com/@WojciechKwapisi/SparklingTeemingCalculators#main.cs
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1650386451526" ID="ID_866914532" MODIFIED="1650386453850" TEXT="Tech tracker">
 <node CREATED="1650386453851" ID="ID_714026968" LINK="https://www.thoughtworks.com/radar" MODIFIED="1650386480114" TEXT="TechRadar by Thougthworks"/>

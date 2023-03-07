@@ -13,7 +13,7 @@
     </p>
   </body>
 </html></richcontent>
-<node COLOR="#338800" CREATED="1652812237673" FOLDED="true" ID="ID_398392327" MODIFIED="1664374557344" TEXT="Cloud computing (6)">
+<node COLOR="#338800" CREATED="1652812237673" ID="ID_398392327" MODIFIED="1676542556822" TEXT="Cloud computing (6)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -349,7 +349,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652812339393" FOLDED="true" ID="ID_809475985" MODIFIED="1664374559290" TEXT="Benefits of using cloud services (4)">
+<node COLOR="#338800" CREATED="1652812339393" ID="ID_809475985" MODIFIED="1678180830870" TEXT="Benefits of using cloud services (4)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -370,7 +370,8 @@
       </li>
     </ol>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node COLOR="#338800" CREATED="1652812353655" ID="ID_73888891" MODIFIED="1664359104459" TEXT="Describe the benefits of High Availability and Scalability">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -584,7 +585,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652812400373" FOLDED="true" ID="ID_39102235" MODIFIED="1664376129402" TEXT="Cloud service types (4)">
+<node COLOR="#338800" CREATED="1652812400373" ID="ID_39102235" MODIFIED="1676542558968" TEXT="Cloud service types (4)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -733,7 +734,7 @@
 </node>
 </node>
 <node COLOR="#338800" CREATED="1652812232533" ID="ID_1213166126" MODIFIED="1665959575546" TEXT="Azure architecture and services (35%-40%)">
-<node COLOR="#338800" CREATED="1652812970558" FOLDED="true" ID="ID_1008249709" MODIFIED="1665508772565" TEXT="Core architectural components (7)">
+<node COLOR="#338800" CREATED="1652812970558" ID="ID_1008249709" MODIFIED="1673443673625" TEXT="Core architectural components (7)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -753,7 +754,7 @@
     </p>
   </body>
 </html></richcontent>
-<node COLOR="#338800" CREATED="1652812976142" ID="ID_220384867" MODIFIED="1664351539921" TEXT="Describe Azure Regional, regional pairs, sovereign regions">
+<node COLOR="#338800" CREATED="1652812976142" ID="ID_220384867" MODIFIED="1668419219629" TEXT="Describe Azure Regional, regional pairs, sovereign regions">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -772,13 +773,16 @@
       
     </p>
     <p>
-      https://infrastructuremap.microsoft.com/explore?info=region_westeurope
+      https://build5nines.com/azure-region-pairs-explained/
     </p>
     <p>
       https://www.skylinesacademy.com/blog/2020/4/28/az900-azure-regions
     </p>
     <p>
-      https://build5nines.com/azure-region-pairs-explained/
+      
+    </p>
+    <p>
+      https://infrastructuremap.microsoft.com/explore?info=region_westeurope
     </p>
     <p>
       https://azure.microsoft.com/en-us/global-infrastructure/geographies/#geographies
@@ -786,7 +790,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#338800" CREATED="1652812995688" ID="ID_711458260" MODIFIED="1664351538194" TEXT="Describe Availability zones">
+<node COLOR="#338800" CREATED="1652812995688" ID="ID_711458260" MODIFIED="1668419300444" TEXT="Describe Availability zones">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -802,7 +806,7 @@
       
     </p>
     <p>
-      3 Availability Zones in 1 Region
+      3 Availability Zones in 1 Region (round-trip latency &lt;2ms within Availability Zone)
     </p>
     <p>
       
@@ -892,8 +896,8 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652813069808" FOLDED="true" ID="ID_260957138" MODIFIED="1665527861441" TEXT="Azure compute and networking services (6)">
-<node COLOR="#338800" CREATED="1652813076630" ID="ID_844010621" MODIFIED="1665519145476" TEXT="Compare Compute types, including container instances, virtual machines (VMs), functions">
+<node COLOR="#338800" CREATED="1652813069808" ID="ID_260957138" MODIFIED="1673442809007" TEXT="Azure compute and networking services (6)">
+<node COLOR="#338800" CREATED="1652813076630" ID="ID_844010621" MODIFIED="1668419485217" TEXT="Compare Compute types, including container instances, virtual machines (VMs), functions">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -925,6 +929,16 @@
     </p>
     <p>
       - Azure Functions (serverless, quick, stateless and stateful/durable)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <img src="./Img/Azure_compute-choices.png" />
+      
     </p>
   </body>
 </html></richcontent>
@@ -1030,7 +1044,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#338800" CREATED="1652813184553" ID="ID_826892619" MODIFIED="1665527529232" TEXT="Describe Virtual networking (inc. purpose of Azure Virtual Networks, Azure virtual subnets, Azure DNS, Azure VPN Gateway, Azure ExpressRoute)">
+<node COLOR="#338800" CREATED="1652813184553" ID="ID_826892619" MODIFIED="1666015599144" TEXT="Describe Virtual networking (inc. purpose of Azure Virtual Networks, Azure virtual subnets, Azure DNS, Azure VPN Gateway, Azure ExpressRoute)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1038,6 +1052,9 @@
   <body>
     <p>
       https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+    </p>
+    <p>
+      https://learn.microsoft.com/en-us/azure/vpn-gateway/design
     </p>
     <p>
       
@@ -1078,7 +1095,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652813101633" FOLDED="true" ID="ID_1882067370" MODIFIED="1665571423504" TEXT="Describe Azure storage services (6)">
+<node COLOR="#338800" CREATED="1652813101633" ID="ID_1882067370" MODIFIED="1676542601282" TEXT="Describe Azure storage services (6)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1598,8 +1615,8 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1661507487978" FOLDED="true" ID="ID_288944864" MODIFIED="1665955964248" TEXT="Describe Azure identity, access and security (8)">
-<node COLOR="#338800" CREATED="1661507520363" ID="ID_1484547026" MODIFIED="1664351266288" TEXT="Describe directory services in Azure, including Azure Active Directory (Azure AD) and Azure Active Directory Domain Services (Azure AD DS)">
+<node COLOR="#338800" CREATED="1661507487978" ID="ID_288944864" MODIFIED="1673442803398" TEXT="Describe Azure identity, access and security (8)">
+<node COLOR="#338800" CREATED="1661507520363" ID="ID_1484547026" MODIFIED="1666621335124" TEXT="Describe directory services in Azure, including Azure Active Directory (Azure AD) and Azure Active Directory Domain Services (Azure AD DS)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1706,9 +1723,6 @@
     </p>
     <p>
       2x Domain Controlers deployed to selected region = replica set (fully azure managed, updated, encrypted at rest using Azure Disk Encryptions)
-    </p>
-    <p>
-      
     </p>
     <p>
       
@@ -1896,7 +1910,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#338800" CREATED="1662715048163" ID="ID_1783141969" MODIFIED="1664351288515" TEXT="Describe the purpose of the defense in depth model">
+<node COLOR="#338800" CREATED="1662715048163" ID="ID_1783141969" MODIFIED="1666618184184" TEXT="Describe the purpose of the defense in depth model">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1934,7 +1948,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#338800" CREATED="1662715057051" ID="ID_545547312" MODIFIED="1664351290818" TEXT="Describe the purpose of Microsoft Defender for Cloud">
+<node COLOR="#338800" CREATED="1662715057051" ID="ID_545547312" MODIFIED="1666618184196" TEXT="Describe the purpose of Microsoft Defender for Cloud">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1994,16 +2008,13 @@
       <img src="./Img/Azure_Defender.png" />
       
     </p>
-    <p>
-      
-    </p>
   </body>
 </html></richcontent>
 </node>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652813098379" ID="ID_941498720" MODIFIED="1665961140997" TEXT="Azure management and governance (30% - 35%)">
-<node COLOR="#338800" CREATED="1653053414898" FOLDED="true" ID="ID_124597491" MODIFIED="1665958132889" TEXT="Describe cost management in Azure (4)">
+<node COLOR="#338800" CREATED="1652813098379" ID="ID_941498720" MODIFIED="1668425862242" TEXT="Azure management and governance (30% - 35%)">
+<node COLOR="#338800" CREATED="1653053414898" ID="ID_124597491" MODIFIED="1676542609390" TEXT="Describe cost management in Azure (4)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2092,7 +2103,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1653053419793" FOLDED="true" ID="ID_175914971" MODIFIED="1665959211854" TEXT="Describe features and tools in Azure for governance and compliance (4)">
+<node COLOR="#338800" CREATED="1653053419793" ID="ID_175914971" MODIFIED="1673442932526" TEXT="Describe features and tools in Azure for governance and compliance (4)">
 <node COLOR="#338800" CREATED="1661849657759" ID="ID_1520936643" MODIFIED="1664202722599" TEXT="Describe the purpose of Azure Blueprints">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2198,7 +2209,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1661849663518" FOLDED="true" ID="ID_1878046654" MODIFIED="1665960533245" TEXT="Describe features and tools for managing and deploying Azure resources (4)">
+<node COLOR="#338800" CREATED="1661849663518" ID="ID_1878046654" MODIFIED="1676542613710" TEXT="Describe features and tools for managing and deploying Azure resources (4)">
 <node COLOR="#338800" CREATED="1661849682895" ID="ID_1035559403" MODIFIED="1664295702357" TEXT="Describe the Azure portal">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2373,7 +2384,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1661849695406" FOLDED="true" ID="ID_1781479729" MODIFIED="1665961142867" TEXT="Describe monitoring tools for Azure (3)">
+<node COLOR="#338800" CREATED="1661849695406" ID="ID_1781479729" MODIFIED="1676542614542" TEXT="Describe monitoring tools for Azure (3)">
 <node COLOR="#338800" CREATED="1661849702784" ID="ID_459450728" MODIFIED="1664298067675" TEXT="Describe the purpose of Azure Advisor">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2514,7 +2525,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1655899151215" ID="ID_854061275" MODIFIED="1664352258656" POSITION="left" TEXT="Full courses">
+<node CREATED="1655899151215" ID="ID_854061275" MODIFIED="1673442351782" POSITION="left" TEXT="Full courses">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2550,9 +2561,9 @@
   </body>
 </html></richcontent>
 <node CREATED="1664349459555" ID="ID_460982053" MODIFIED="1664349465032" TEXT="AZ-900">
-<node CREATED="1664349871777" ID="ID_1162539056" LINK="https://learn.microsoft.com/en-us/certifications/exams/az-900?tab=tab-learning-paths" MODIFIED="1664349897966" TEXT="Web - Microsoft - Online Free Self Learning"/>
+<node COLOR="#338800" CREATED="1664349871777" ID="ID_1162539056" LINK="https://learn.microsoft.com/en-us/certifications/exams/az-900?tab=tab-learning-paths" MODIFIED="1666966201561" TEXT="Web - Microsoft - Online Free Self Learning"/>
 <node CREATED="1664203267479" ID="ID_263232303" LINK="https://www.testpreptraining.com/tutorial/microsoft-azure-fundamentals-az-900" MODIFIED="1664349620973" TEXT="Web - https://www.testpreptraining.com/"/>
-<node CREATED="1664349381828" ID="ID_1757136468" LINK="https://www.youtube.com/playlist?list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3" MODIFIED="1664349687693" TEXT="YT - John Savill"/>
+<node COLOR="#338800" CREATED="1664349381828" ID="ID_1757136468" LINK="https://www.youtube.com/playlist?list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3" MODIFIED="1666966191335" TEXT="YT - John Savill"/>
 <node CREATED="1664349747041" ID="ID_1085536413" LINK="https://www.youtube.com/playlist?list=PLGjZwEtPN7j-Q59JYso3L4_yoCjj2syrM" MODIFIED="1664349754514" TEXT="YT - Adam Marczak"/>
 <node CREATED="1664349434130" FOLDED="true" ID="ID_1920267463" LINK="https://www.youtube.com/playlist?list=PL0AYtrUw-NRRvjDqOZhBRvP8CK8LNsa1L" MODIFIED="1664349623793" TEXT="YT - The Tech Blackboard">
 <node CREATED="1664349497106" ID="ID_782485227" LINK="https://www.youtube.com/playlist?list=PL0AYtrUw-NRQQ3an3LEOJgjS1XsYGNxDS" MODIFIED="1664349552478" TEXT="Update 2020.05"/>
@@ -2564,9 +2575,87 @@
 </node>
 </node>
 <node CREATED="1661860831754" ID="ID_1866294814" MODIFIED="1664352259470" POSITION="left" TEXT="Example questions">
-<node CREATED="1663656468974" ID="ID_1687884241" LINK="https://learn.microsoft.com/en-us/certifications/resources/az-900-sample-questions?azure-portal=true" MODIFIED="1664349609599" TEXT="Web - Sample from MS"/>
-<node CREATED="1664349583280" ID="ID_1972623497" LINK="https://www.youtube.com/playlist?list=PL0AYtrUw-NRSbS9x-vcAlN6nG7w0wlHVj" MODIFIED="1664349592115" TEXT="YT- The Tech Blackboard"/>
-<node CREATED="1664349768337" ID="ID_741642003" LINK="https://www.youtube.com/playlist?list=PLkHGwKskwHnaK8mlqGNpghnwySyC4sI5t" MODIFIED="1664349779356" TEXT="YT - Scott Duffy"/>
+<node COLOR="#338800" CREATED="1663656468974" ID="ID_1687884241" MODIFIED="1669715273893" TEXT="Web - Sample from MS">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://learn.microsoft.com/en-us/certifications/resources/az-900-sample-questions?azure-portal=true
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Score: 19/20
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      To review:
+    </p>
+    <p>
+      8. b (incorrect, should be - C) - Site to Site VPN
+    </p>
+    <p>
+      12. a (b?) - Azure Cloud Shell
+    </p>
+    <p>
+      13. c (a?) - Azure Batch
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1667331556194" ID="ID_1152566810" MODIFIED="1667331559813" TEXT="">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://www.youtube.com/watch?v=uhDcDLztBKk&amp;t=2s
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1667331557758" ID="ID_546479388" MODIFIED="1667331587583" TEXT="YT - Susanth Sutheesh">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://www.youtube.com/watch?v=uhDcDLztBKk
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1664349583280" ID="ID_1972623497" MODIFIED="1667331602177" TEXT="YT- The Tech Blackboard">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://www.youtube.com/playlist?list=PL0AYtrUw-NRSbS9x-vcAlN6nG7w0wlHVj
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1666016499248" ID="ID_1934066142" MODIFIED="1667331607934" TEXT="ESI - Practice test &amp; Exam">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://esi.microsoft.com/Search?q=AZ-900
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1661500349735" ID="ID_490736494" MODIFIED="1661863086330" POSITION="left" TEXT="General additional resources">
 <richcontent TYPE="NOTE"><html>
@@ -2583,7 +2672,7 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#338800" CREATED="1661849731647" ID="ID_1349916043" MODIFIED="1665958058273" POSITION="left" TEXT="Progress">
+<node COLOR="#338800" CREATED="1661849731647" ID="ID_1349916043" MODIFIED="1669715703187" POSITION="left" TEXT="Progress">
 <node COLOR="#338800" CREATED="1661849750958" ID="ID_273079012" MODIFIED="1664360982347" TEXT="56 / 56"/>
 </node>
 </node>
