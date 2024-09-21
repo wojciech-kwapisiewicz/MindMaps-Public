@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#006633" CREATED="1652811308341" ID="ID_334208055" MODIFIED="1664374665691" TEXT="Azure">
-<node CREATED="1652811315645" ID="ID_1004909925" MODIFIED="1652811318678" POSITION="right" TEXT="AZ-900">
-<node COLOR="#338800" CREATED="1652812226095" ID="ID_1041404460" MODIFIED="1665959574678" TEXT="Cloud computing concepts (25%-30%)">
+<node COLOR="#006633" CREATED="1652811308341" ID="ID_334208055" MODIFIED="1718133330981" TEXT="Azure">
+<node CREATED="1652811315645" ID="ID_1004909925" MODIFIED="1718562110340" POSITION="right" TEXT="AZ-900">
+<node COLOR="#338800" CREATED="1652812226095" ID="ID_1041404460" MODIFIED="1718562114648" TEXT="Cloud computing concepts (25%-30%)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -13,7 +13,7 @@
     </p>
   </body>
 </html></richcontent>
-<node COLOR="#338800" CREATED="1652812237673" FOLDED="true" ID="ID_398392327" MODIFIED="1664374557344" TEXT="Cloud computing (6)">
+<node COLOR="#338800" CREATED="1652812237673" FOLDED="true" ID="ID_398392327" MODIFIED="1718562120834" TEXT="Cloud computing (6)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -349,7 +349,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652812339393" FOLDED="true" ID="ID_809475985" MODIFIED="1664374559290" TEXT="Benefits of using cloud services (4)">
+<node COLOR="#338800" CREATED="1652812339393" FOLDED="true" ID="ID_809475985" MODIFIED="1718562129049" TEXT="Benefits of using cloud services (4)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -584,7 +584,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652812400373" FOLDED="true" ID="ID_39102235" MODIFIED="1664376129402" TEXT="Cloud service types (4)">
+<node COLOR="#338800" CREATED="1652812400373" FOLDED="true" ID="ID_39102235" MODIFIED="1718562126700" TEXT="Cloud service types (4)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -732,8 +732,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652812232533" ID="ID_1213166126" MODIFIED="1665959575546" TEXT="Azure architecture and services (35%-40%)">
-<node COLOR="#338800" CREATED="1652812970558" FOLDED="true" ID="ID_1008249709" MODIFIED="1665508772565" TEXT="Core architectural components (7)">
+<node COLOR="#338800" CREATED="1652812232533" ID="ID_1213166126" MODIFIED="1718562135633" TEXT="Azure architecture and services (35%-40%)">
+<node COLOR="#338800" CREATED="1652812970558" FOLDED="true" ID="ID_1008249709" MODIFIED="1718562141320" TEXT="Core architectural components (7)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -892,7 +892,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652813069808" FOLDED="true" ID="ID_260957138" MODIFIED="1665527861441" TEXT="Azure compute and networking services (6)">
+<node COLOR="#338800" CREATED="1652813069808" FOLDED="true" ID="ID_260957138" MODIFIED="1718132866846" TEXT="Azure compute and networking services (6)">
 <node COLOR="#338800" CREATED="1652813076630" ID="ID_844010621" MODIFIED="1665519145476" TEXT="Compare Compute types, including container instances, virtual machines (VMs), functions">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1078,7 +1078,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652813101633" FOLDED="true" ID="ID_1882067370" MODIFIED="1665571423504" TEXT="Describe Azure storage services (6)">
+<node COLOR="#338800" CREATED="1652813101633" FOLDED="true" ID="ID_1882067370" MODIFIED="1718132866847" TEXT="Describe Azure storage services (6)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1598,7 +1598,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1661507487978" FOLDED="true" ID="ID_288944864" MODIFIED="1665955964248" TEXT="Describe Azure identity, access and security (8)">
+<node COLOR="#338800" CREATED="1661507487978" FOLDED="true" ID="ID_288944864" MODIFIED="1718132866847" TEXT="Describe Azure identity, access and security (8)">
 <node COLOR="#338800" CREATED="1661507520363" ID="ID_1484547026" MODIFIED="1664351266288" TEXT="Describe directory services in Azure, including Azure Active Directory (Azure AD) and Azure Active Directory Domain Services (Azure AD DS)">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2002,8 +2002,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1652813098379" ID="ID_941498720" MODIFIED="1665961140997" TEXT="Azure management and governance (30% - 35%)">
-<node COLOR="#338800" CREATED="1653053414898" FOLDED="true" ID="ID_124597491" MODIFIED="1665958132889" TEXT="Describe cost management in Azure (4)">
+<node COLOR="#338800" CREATED="1652813098379" FOLDED="true" ID="ID_941498720" MODIFIED="1718562160659" TEXT="Azure management and governance (30% - 35%)">
+<node COLOR="#338800" CREATED="1653053414898" FOLDED="true" ID="ID_124597491" MODIFIED="1718562149981" TEXT="Describe cost management in Azure (4)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2092,7 +2092,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1653053419793" FOLDED="true" ID="ID_175914971" MODIFIED="1665959211854" TEXT="Describe features and tools in Azure for governance and compliance (4)">
+<node COLOR="#338800" CREATED="1653053419793" FOLDED="true" ID="ID_175914971" MODIFIED="1718562159676" TEXT="Describe features and tools in Azure for governance and compliance (4)">
 <node COLOR="#338800" CREATED="1661849657759" ID="ID_1520936643" MODIFIED="1664202722599" TEXT="Describe the purpose of Azure Blueprints">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2198,7 +2198,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1661849663518" FOLDED="true" ID="ID_1878046654" MODIFIED="1665960533245" TEXT="Describe features and tools for managing and deploying Azure resources (4)">
+<node COLOR="#338800" CREATED="1661849663518" FOLDED="true" ID="ID_1878046654" MODIFIED="1718132866849" TEXT="Describe features and tools for managing and deploying Azure resources (4)">
 <node COLOR="#338800" CREATED="1661849682895" ID="ID_1035559403" MODIFIED="1664295702357" TEXT="Describe the Azure portal">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2373,7 +2373,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1661849695406" FOLDED="true" ID="ID_1781479729" MODIFIED="1665961142867" TEXT="Describe monitoring tools for Azure (3)">
+<node COLOR="#338800" CREATED="1661849695406" FOLDED="true" ID="ID_1781479729" MODIFIED="1718562146255" TEXT="Describe monitoring tools for Azure (3)">
 <node COLOR="#338800" CREATED="1661849702784" ID="ID_459450728" MODIFIED="1664298067675" TEXT="Describe the purpose of Azure Advisor">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2513,8 +2513,15 @@
 </node>
 </node>
 </node>
+<node COLOR="#338800" CREATED="1661849731647" FOLDED="true" ID="ID_1349916043" MODIFIED="1718133341365" TEXT="Progress">
+<node COLOR="#338800" CREATED="1661849750958" ID="ID_273079012" MODIFIED="1664360982347" TEXT="56 / 56"/>
 </node>
-<node CREATED="1655899151215" ID="ID_854061275" MODIFIED="1664352258656" POSITION="left" TEXT="Full courses">
+<node CREATED="1661860831754" FOLDED="true" ID="ID_1866294814" MODIFIED="1718133446345" TEXT="Example questions">
+<node CREATED="1663656468974" ID="ID_1687884241" LINK="https://learn.microsoft.com/en-us/certifications/resources/az-900-sample-questions?azure-portal=true" MODIFIED="1718133412327" TEXT="Web - Sample from MS"/>
+<node CREATED="1664349583280" ID="ID_1972623497" LINK="https://www.youtube.com/playlist?list=PL0AYtrUw-NRSbS9x-vcAlN6nG7w0wlHVj" MODIFIED="1664349592115" TEXT="YT- The Tech Blackboard"/>
+<node CREATED="1664349768337" ID="ID_741642003" LINK="https://www.youtube.com/playlist?list=PLkHGwKskwHnaK8mlqGNpghnwySyC4sI5t" MODIFIED="1664349779356" TEXT="YT - Scott Duffy"/>
+</node>
+<node CREATED="1655899151215" FOLDED="true" ID="ID_854061275" MODIFIED="1718133447150" TEXT="Full courses">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2549,26 +2556,17 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1664349459555" ID="ID_460982053" MODIFIED="1664349465032" TEXT="AZ-900">
 <node CREATED="1664349871777" ID="ID_1162539056" LINK="https://learn.microsoft.com/en-us/certifications/exams/az-900?tab=tab-learning-paths" MODIFIED="1664349897966" TEXT="Web - Microsoft - Online Free Self Learning"/>
 <node CREATED="1664203267479" ID="ID_263232303" LINK="https://www.testpreptraining.com/tutorial/microsoft-azure-fundamentals-az-900" MODIFIED="1664349620973" TEXT="Web - https://www.testpreptraining.com/"/>
 <node CREATED="1664349381828" ID="ID_1757136468" LINK="https://www.youtube.com/playlist?list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3" MODIFIED="1664349687693" TEXT="YT - John Savill"/>
 <node CREATED="1664349747041" ID="ID_1085536413" LINK="https://www.youtube.com/playlist?list=PLGjZwEtPN7j-Q59JYso3L4_yoCjj2syrM" MODIFIED="1664349754514" TEXT="YT - Adam Marczak"/>
-<node CREATED="1664349434130" FOLDED="true" ID="ID_1920267463" LINK="https://www.youtube.com/playlist?list=PL0AYtrUw-NRRvjDqOZhBRvP8CK8LNsa1L" MODIFIED="1664349623793" TEXT="YT - The Tech Blackboard">
+<node CREATED="1664349434130" FOLDED="true" ID="ID_1920267463" LINK="https://www.youtube.com/playlist?list=PL0AYtrUw-NRRvjDqOZhBRvP8CK8LNsa1L" MODIFIED="1718132866850" TEXT="YT - The Tech Blackboard">
 <node CREATED="1664349497106" ID="ID_782485227" LINK="https://www.youtube.com/playlist?list=PL0AYtrUw-NRQQ3an3LEOJgjS1XsYGNxDS" MODIFIED="1664349552478" TEXT="Update 2020.05"/>
 </node>
 <node CREATED="1664349650689" ID="ID_389876055" LINK="https://www.youtube.com/playlist?list=PL6n9fhu94yhVIhqTz-LBfwgz_Amz7rRLp" MODIFIED="1664349658829" TEXT="YT - Tutorial for beginners"/>
 </node>
-<node CREATED="1664359514471" ID="ID_1187769868" MODIFIED="1664359518757" TEXT="Extras">
-<node CREATED="1664359519240" ID="ID_1804875527" LINK="https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/" MODIFIED="1664359532334" TEXT="Azure Well Architected Framework"/>
 </node>
-</node>
-<node CREATED="1661860831754" ID="ID_1866294814" MODIFIED="1664352259470" POSITION="left" TEXT="Example questions">
-<node CREATED="1663656468974" ID="ID_1687884241" LINK="https://learn.microsoft.com/en-us/certifications/resources/az-900-sample-questions?azure-portal=true" MODIFIED="1664349609599" TEXT="Web - Sample from MS"/>
-<node CREATED="1664349583280" ID="ID_1972623497" LINK="https://www.youtube.com/playlist?list=PL0AYtrUw-NRSbS9x-vcAlN6nG7w0wlHVj" MODIFIED="1664349592115" TEXT="YT- The Tech Blackboard"/>
-<node CREATED="1664349768337" ID="ID_741642003" LINK="https://www.youtube.com/playlist?list=PLkHGwKskwHnaK8mlqGNpghnwySyC4sI5t" MODIFIED="1664349779356" TEXT="YT - Scott Duffy"/>
-</node>
-<node CREATED="1661500349735" ID="ID_490736494" MODIFIED="1661863086330" POSITION="left" TEXT="General additional resources">
+<node CREATED="1661500349735" ID="ID_490736494" MODIFIED="1718133281422" POSITION="left" TEXT="General additional resources">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2583,8 +2581,182 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#338800" CREATED="1661849731647" ID="ID_1349916043" MODIFIED="1665958058273" POSITION="left" TEXT="Progress">
-<node COLOR="#338800" CREATED="1661849750958" ID="ID_273079012" MODIFIED="1664360982347" TEXT="56 / 56"/>
+<node CREATED="1718132883638" ID="ID_1007677493" MODIFIED="1718133453176" POSITION="right" TEXT="AZ-104">
+<node CREATED="1718133453587" ID="ID_426765315" MODIFIED="1718133541590" TEXT="Manage Azure identities and governance (20% - 25%)">
+<node CREATED="1718133756835" FOLDED="true" ID="ID_1425560617" MODIFIED="1718133866121" TEXT="Manage Microsoft Entra users and groups">
+<node CREATED="1718133688180" ID="ID_777949041" MODIFIED="1718133693747" TEXT="Create users and groups"/>
+<node CREATED="1718133694183" ID="ID_768436547" MODIFIED="1718133722855" TEXT="Manage users and group properties "/>
+<node CREATED="1718133723220" ID="ID_344581687" MODIFIED="1718133729997" TEXT="Manager licenses in Microsoft Entra ID"/>
+<node CREATED="1718133730694" ID="ID_876898768" MODIFIED="1718133734476" TEXT="Manage external users"/>
+<node CREATED="1718133734715" ID="ID_838670280" MODIFIED="1718133741736" TEXT="Configure self-service password reset"/>
+</node>
+<node CREATED="1718133773473" FOLDED="true" ID="ID_1263199708" MODIFIED="1718133865739" TEXT="Manage access to Azure resources">
+<node CREATED="1718133791981" ID="ID_1204135469" MODIFIED="1718133797384" TEXT="Manage built-in Azure roles"/>
+<node CREATED="1718133797621" ID="ID_368124786" MODIFIED="1718133804966" TEXT="Assign roles at different scopes"/>
+<node CREATED="1718133805189" ID="ID_827507750" MODIFIED="1718133813094" TEXT="Interpret access assignments"/>
+</node>
+<node CREATED="1718133780449" FOLDED="true" ID="ID_507977463" MODIFIED="1718133865251" TEXT="Manage Azure subscriptions and governance">
+<node CREATED="1718133816599" ID="ID_824656007" MODIFIED="1718133823438" TEXT="Implement and manage Azure Policy"/>
+<node CREATED="1718133823669" ID="ID_499285729" MODIFIED="1718133828860" TEXT="Configure resource locks"/>
+<node CREATED="1718133829102" ID="ID_1145321648" MODIFIED="1718133835034" TEXT="Apply and manage tags on resources"/>
+<node CREATED="1718133835236" ID="ID_710166986" MODIFIED="1718133839731" TEXT="Manage resource groups"/>
+<node CREATED="1718133839958" ID="ID_552680030" MODIFIED="1718133843291" TEXT="Manage subscriptions"/>
+<node CREATED="1718133843523" ID="ID_1900878111" MODIFIED="1718133855938" TEXT="Manage costs by using alterts, budgets and Azure Advisor recommendations"/>
+<node CREATED="1718133858497" ID="ID_681849846" MODIFIED="1718133861914" TEXT="Configure management groups"/>
+</node>
+</node>
+<node CREATED="1718133581241" FOLDED="true" ID="ID_1367794438" MODIFIED="1718563133311" TEXT="Monitor and maintain Azure resources (10%-15%)">
+<node CREATED="1718134221288" ID="ID_532251399" MODIFIED="1718134234902" TEXT="Monitor resources in Azure">
+<node CREATED="1718134234903" ID="ID_985993434" MODIFIED="1718134241066" TEXT="Interpret metrics in Azure Monitor"/>
+<node CREATED="1718134241311" ID="ID_205214425" MODIFIED="1718134248567" TEXT="Configure log settings in Azure Monitor"/>
+<node CREATED="1718134249224" ID="ID_556823269" MODIFIED="1718134255102" TEXT="Query and analyze logs in Azure Monitor"/>
+<node CREATED="1718134255357" ID="ID_1434230882" MODIFIED="1718134268003" TEXT="Set up alert rules, action groups and alert processing rules in Azure Monitor"/>
+<node CREATED="1718134268321" ID="ID_1118724021" MODIFIED="1718134288290" TEXT="Configure and interpret monitoring of virtual machines, storage accounts and networks by using Azure Monitor Insights"/>
+<node CREATED="1718134288570" ID="ID_666352604" MODIFIED="1718134296416" TEXT="Uze Azure Netork Watcher and Connection Monitor"/>
+</node>
+<node CREATED="1718134301983" ID="ID_1394607739" MODIFIED="1718134307267" TEXT="Implement backup and recovery">
+<node CREATED="1718134318859" ID="ID_960772958" MODIFIED="1718134324342" TEXT="Create a Recovery Services vault"/>
+<node CREATED="1718134325053" ID="ID_997325062" MODIFIED="1718134329727" TEXT="Create and Azure Backup vault"/>
+<node CREATED="1718134329946" ID="ID_80853532" MODIFIED="1718134334902" TEXT="Create and configure backup policies"/>
+<node CREATED="1718134335122" ID="ID_868000556" MODIFIED="1718134347482" TEXT="Perform backup and restore operations by using Azure Backup"/>
+<node CREATED="1718134347753" ID="ID_738016281" MODIFIED="1718134357006" TEXT="Configure Azure Site Recovery for Azure resources"/>
+<node CREATED="1718134357488" ID="ID_1492333255" MODIFIED="1718134368625" TEXT="Perform a failover to a secondary region by using Site Recovery"/>
+<node CREATED="1718134368839" ID="ID_1251085598" MODIFIED="1718134379283" TEXT="Configure and interpret reports and alerts for backups"/>
+</node>
+</node>
+<node CREATED="1718133457584" ID="ID_414834484" MODIFIED="1718133551648" TEXT="Implement and manage storage (15% - 20%)">
+<node CREATED="1718133743863" ID="ID_593324001" MODIFIED="1718133743863" TEXT=""/>
+</node>
+<node CREATED="1718133458874" ID="ID_545884373" MODIFIED="1718133560796" TEXT="Deploy and manage Azure compute resources (20% - 25%)"/>
+<node CREATED="1718133566155" ID="ID_1382960012" MODIFIED="1718133577277" TEXT="Implement and manage virtual networking (15%-20%)"/>
+</node>
+<node CREATED="1718132890079" ID="ID_177851351" MODIFIED="1718134005576" POSITION="right" TEXT="AZ-305">
+<node CREATED="1664359519240" ID="ID_1804875527" LINK="https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/" MODIFIED="1664359532334" TEXT="Azure Well Architected Framework"/>
+<node CREATED="1718134027069" ID="ID_1843331529" MODIFIED="1718134039066" TEXT="Design identity, governance and monitoring (25%-30%)">
+<node CREATED="1718134005576" ID="ID_858756154" MODIFIED="1718134013706" TEXT="Design solutions for logging and monitoring">
+<node CREATED="1718134014374" ID="ID_949363057" MODIFIED="1718134018983" TEXT="Recommend a logging solution"/>
+<node CREATED="1718134019249" ID="ID_826655802" MODIFIED="1718134054510" TEXT="Recommend a solution for routing logs"/>
+<node CREATED="1718134044582" ID="ID_1675764508" MODIFIED="1718134049606" TEXT="Recommend a monitoring solution"/>
+</node>
+<node CREATED="1718134056463" ID="ID_1217136158" MODIFIED="1720257844786" TEXT="Design authentication and authorization solutions">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Section 3: Design Identity and Access Management
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Identities
+    </p>
+    <p>
+      - User Account
+    </p>
+    <p>
+      - Service Principal (externally managed account for service)
+    </p>
+    <p>
+      - Managed Identity (Azure managed principal for service)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Groups
+    </p>
+    <p>
+      - Assigned
+    </p>
+    <p>
+      - Dynamic (Entra Premium P1) - no manual changes
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Devices
+    </p>
+    <p>
+      - Azure AD Registered - least restrictive, just affiliate
+    </p>
+    <p>
+      - Azure AD Joined - device owned by org, joins Cloud AD only
+    </p>
+    <p>
+      - Hybrid Azure AD Joined - joins Cloud AD and On-Prem AD
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      SSPR - single signon password reset
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Entra ID (Azure AD)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Entra Connect - sync on-prem AD
+    </p>
+    <p>
+      Entra Cloud Sync (will replace Connect)
+    </p>
+    <p>
+      https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-azure-ad-connect
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Entra AD DS - traditional AD features like LDAP, Domain Join
+    </p>
+    <p>
+      https://azure.microsoft.com/en-us/products/microsoft-entra-ds
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Entra AD External Identities:
+    </p>
+    <p>
+      - B2B - business to business
+    </p>
+    <p>
+      - B2C - business to consumer
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Section 4: Design identity security
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1718134065220" ID="ID_1657223748" MODIFIED="1718134072187" TEXT="Recommend an authentication solution"/>
+<node CREATED="1718134072436" ID="ID_1521804734" MODIFIED="1718134077995" TEXT="Recommend and identity management solution"/>
+<node CREATED="1718134078214" ID="ID_1737153655" MODIFIED="1718134088486" TEXT="Recommend a solution for authorizing access to Azure resource"/>
+<node CREATED="1718134088723" ID="ID_908650078" MODIFIED="1718134096520" TEXT="Recommend solution to manage secrets, certifciates and keys"/>
+</node>
+<node CREATED="1718134099587" ID="ID_791679907" MODIFIED="1718134104130" TEXT="Design governance">
+<node CREATED="1718134104729" ID="ID_1705943000" MODIFIED="1718134122996" TEXT="Recommend a strucuture for management groups, subscriptions and resouce groups and strategy for resource tagging"/>
+<node CREATED="1718134124200" ID="ID_1196405564" MODIFIED="1718134136230" TEXT="Recommend a solution for managing compliance"/>
+<node CREATED="1718134136456" ID="ID_57429019" MODIFIED="1718134143019" TEXT="Recommend a solution for identity governance"/>
+</node>
+</node>
+</node>
+<node CREATED="1718133419863" ID="ID_736989672" LINK="https://learn.microsoft.com/en-us/training/courses/az-104t00" MODIFIED="1718133681132" POSITION="left" TEXT="AZ-104 path">
+<node CREATED="1718133218399" ID="ID_47578284" LINK="https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/" MODIFIED="1718133240515" TEXT="MS training path"/>
 </node>
 </node>
 </map>
