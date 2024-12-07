@@ -370,8 +370,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node COLOR="#338800" CREATED="1652812353655" ID="ID_73888891" MODIFIED="1664359104459" TEXT="Describe the benefits of High Availability and Scalability">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2752,8 +2751,7 @@
       Section 4: Design identity security
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1718134065220" ID="ID_1657223748" MODIFIED="1718134072187" TEXT="Recommend an authentication solution"/>
 <node CREATED="1718134072436" ID="ID_1521804734" MODIFIED="1718134077995" TEXT="Recommend and identity management solution"/>
 <node CREATED="1718134078214" ID="ID_1737153655" MODIFIED="1718134088486" TEXT="Recommend a solution for authorizing access to Azure resource"/>
@@ -2763,6 +2761,24 @@
 <node CREATED="1718134104729" ID="ID_1705943000" MODIFIED="1718134122996" TEXT="Recommend a strucuture for management groups, subscriptions and resouce groups and strategy for resource tagging"/>
 <node CREATED="1718134124200" ID="ID_1196405564" MODIFIED="1718134136230" TEXT="Recommend a solution for managing compliance"/>
 <node CREATED="1718134136456" ID="ID_57429019" MODIFIED="1718134143019" TEXT="Recommend a solution for identity governance"/>
+</node>
+</node>
+<node CREATED="1731160059840" ID="ID_844672408" MODIFIED="1731160082638" TEXT="Design data storage solutions (20%- 25%)">
+<node CREATED="1731160196460" ID="ID_29167396" MODIFIED="1731160197828" TEXT="Design data storage solutions for relational data">
+<node CREATED="1731160203399" ID="ID_166974206" MODIFIED="1731160204397" TEXT="Recommend a solution for storing relational data"/>
+<node CREATED="1731160207480" ID="ID_1023456922" MODIFIED="1731160207860" TEXT="Recommend a database service tier and compute tier"/>
+<node CREATED="1731160218602" ID="ID_842079785" MODIFIED="1731160219463" TEXT="Recommend a solution for database scalability"/>
+<node CREATED="1731160223080" ID="ID_659874048" MODIFIED="1731160223930" TEXT="Recommend a solution for data protection"/>
+</node>
+<node CREATED="1731160227249" ID="ID_1931425774" MODIFIED="1731160235287" TEXT="Design data storage solutions for semi-structured and unstructured data">
+<node CREATED="1731160236269" ID="ID_354745354" MODIFIED="1731160242456" TEXT="Recommend a solution for storing semi-structured data"/>
+<node CREATED="1731160246405" ID="ID_580188159" MODIFIED="1731160247347" TEXT="Recommend a solution for storing unstructured data"/>
+<node CREATED="1731160252257" ID="ID_988135460" MODIFIED="1731160253019" TEXT="Recommend a data storage solution to balance features, performance, and costs"/>
+<node CREATED="1731160253444" ID="ID_306352860" MODIFIED="1731160259281" TEXT="Recommend a data solution for protection and durability"/>
+</node>
+<node CREATED="1731160262723" ID="ID_344075619" MODIFIED="1731160263639" TEXT="Design data integration">
+<node CREATED="1731160264271" ID="ID_1188717241" MODIFIED="1731160269360" TEXT="Recommend a solution for data integration"/>
+<node CREATED="1731160272873" ID="ID_495045623" MODIFIED="1731160273504" TEXT="Recommend a solution for data analysis"/>
 </node>
 </node>
 </node>
